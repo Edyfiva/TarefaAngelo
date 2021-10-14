@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <img src="logo2.webp" alt="logo2" width="1%" height="1%">
+            </li>
+            <li>
+                <a href="index.html">Principal</a>
+            </li>
+            <li>
+                <a href="Hospedagem.html">Hospedagens</a>
+            </li>
+            <li>
+                <a href="Reservas.html">Reservas</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img id="logo" src="logo.png" alt="logo" width="10%" height="10%">
+    </header>
+    <header class="text">
+        <center><h1><strong>Pousada Recanto da Natureza</strong></h1></center>
+    
+    </header>
+    <div class="formulario">
+        <h2>Venha de hospedar conosco</h2>
+    <form>
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        
+        <div class="campo">
+            <label>Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label><Strong>Sua reserva acompanha Pet ?</Strong></label>
+                <input type="radio" id="resposta1" value="sim" name="resposta">
+                <label for="resposta1">Sim</label>
+                <input type="radio" id="resposta2" value="nao" name="resposta">
+                <label for="resposta2">Não</label>
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <label for="origem"><strong>Se sim por favor selecione abaixo qual tipo:</Strong></label>
+            <select id="origem">
+                <option selected disabled value="">Selecione</option>
+                <option>Cachorro</option>
+                <option>Gato</option>
+                <option>Ambos</option>
+                <option>Outros</option>
+            </select>
+        </div>
+        <br>
+        <div class= "campo">
+            <label for="data"><strong>Selecione abaixo o inicio e o fim de sua estadia: </strong>
+                <p>Check-in:</p>
+                <input type="date">
+                <p>Check-out:</p>
+                <input type="date">
+
+            </label>
+
+        </div>
+
+<br>
+        <div class="campo">
+            <br>
+            <label><strong>Deixe aqui sua sujestão/comentário/pedido especial:</strong></label>
+            <textarea name="" id="experiencia" name="experiencia" cols="30" rows="6" style="width: 26cm"></textarea>
+        </div>
+        <button class="botao" type="submit">Reservar</button>
+    </form>
+</div>
+</body>
+</html>
